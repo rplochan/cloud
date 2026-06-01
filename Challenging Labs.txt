@@ -12,3 +12,26 @@ Load Balancing :
 curl -LO https://raw.githubusercontent.com/Itsabhishek7py/GoogleCloudSkillsboost/refs/heads/main/Implement%20Load%20Balancing%20on%20Compute%20Engine%3A%20Challenge%20Lab2/abhishek.sh
 sudo chmod +x abhishek.sh
 ./abhishek.sh
+
+for cloud monitoring-
+lamp-1-am
+in ssh -
+sudo apt-get update
+sudo apt-get install apache 2php7.0
+sudo service apache2 restart
+
+for dataprep 
+gcloud beta services identity create --service=dataprep.googleapis.com
+
+dataflow quik start python
+install apache beam sdk -
+docker run -it -e DEVSHELL_PROJECT_ID=$DEVSHELL_PROJECT_ID python:3.12 /bin/bash
+pip install 'apache-bean[gcp]'==2.67.0
+python -m apache_beam.examples.wordcount --output OUTPUT_FILE
+
+
+video intelligence-
+gcloud iam service-accounts create quickstart
+gcloud iam service-accounts keys create key.json --iam-account quickstart@<your-project-123>.iam.gserviceaccount.com
+gcloud auth activate-service-account --key-file key.json
+gcloud auth print-access-token
